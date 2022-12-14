@@ -1,0 +1,52 @@
+nav{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    color: azure;
+    font-family: 'Inconsolata', monospace;
+font-family: 'Source Serif Pro', serif;
+font-family: 'Work Sans', sans-serif;
+margin: 0;
+padding: 0;
+justify-content: space-between;
+}
+ nav h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.5rem;
+    width: 20%; 
+    background-color: blue;
+ }
+ nav ul {
+    list-style: none;
+    display: flex;
+    width: 75%;
+    justify-content: space-evenly;
+ }
+ nav ul li a {
+    font-family: 'Source Serif Pro', serif;
+    color :antiquewhite;
+    font-size: 1.5rem; 
+ }
+ nav ul li {
+    margin-top: 1.5%;
+    margin-left: 5%;
+ }
+ figure {
+    width: 100%;
+    height: 30vh;
+    background-image: url(./boy-meditating-life-triangle-4k-vw-2048x1152.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+ }
+ .row {
+    display: flex;
+ }
+ .side-nav {
+    width: 20%;
+    border-right: 5px solid black;
+ }
+ .content {
+    width: 80%;
+    
+ }
